@@ -1,6 +1,7 @@
 ---
 applications:
 - name: github-eureka
+  memory: 750m
   services:
     - github-rabbitmq
   env:
